@@ -108,18 +108,37 @@ blockquote, blockquote p {
   transition-delay: 0.15s;
 }
 
-.footnote-circle {
+// .footnote-circle {
+//   display: inline-block;
+//   width: 0.22em;
+//   height: 0.22em;
+//   margin-right: 0.10em;
+//   border-radius: 100%;
+//   background-color: #e6e6e6;
+//   border: none;
+// }
+
+// .footnote-circle:last-child {
+//   margin-right: 0;
+// }
+
+.footnote-star {
   display: inline-block;
-  width: 0.22em;
-  height: 0.22em;
+  background: blue;
+  width: 0.23em;
+  height: 0.23em;
   margin-right: 0.10em;
   border-radius: 100%;
   background-color: #e6e6e6;
   border: none;
-}
-
-.footnote-circle:last-child {
-  margin-right: 0;
+ -webkit-transform: rotate(30deg);
+ -moz-transform: rotate(30deg);
+ -ms-transform: rotate(30deg);
+ -o-transform: rotate(30deg);
+ -webkit-transform: rotate(60deg);
+ -moz-transform: rotate(60deg);
+ -ms-transform: rotate(60deg);
+ -o-transform: rotate(60deg);
 }
 
 @media not print {
