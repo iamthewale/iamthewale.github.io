@@ -90,8 +90,8 @@
                                             "rel=\"footnote\"" +
                                             "data-footnote-content=\"{{FOOTNOTECONTENT}}\">" +
                                                 "<span class=\"footnote-circle\" data-footnote-number=\"{{FOOTNOTENUM}}\"></span>" +
-                                                "<span class=\"footnote-circle\"></span>" +
-                                                "<span class=\"footnote-circle\"></span>" +
+                                                // "<span class=\"footnote-circle\"></span>" +
+                                                // "<span class=\"footnote-circle\"></span>" +
                                         "</a></div>"
             }, options);
 
