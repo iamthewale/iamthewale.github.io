@@ -2,7 +2,6 @@
 layout: post
 permalink: /about/index.html
 title: About
-external: false
 image:
   feature: soft-trees.jpg
 ---
