@@ -7,7 +7,7 @@ canonical:
 owner:
   name:           Filip Witek
   avatar:         avatar.jpg
-  bio:            "Aesthete & Athlete"
+  # bio:            "Aesthete & Athlete"
   email:          filip.witek93@gmail.com 
   twitter:        iamthewale
   github:         iamthewale
@@ -24,7 +24,7 @@ tools:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About + contact
+  - title: About
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
