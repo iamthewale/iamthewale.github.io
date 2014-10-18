@@ -1048,6 +1048,12 @@ footer {
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
+    .archive-wrap-first {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
     footer {
     
     .social {
@@ -1074,6 +1080,11 @@ footer {
 }
 
 @media only screen and (max-width : 680px) {
+    .archive-wrap-first {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
  
  /* All Posts */
       
@@ -1186,6 +1197,12 @@ footer {
 
 @media only screen and (max-width: $breakpoint-1-max-width) {
 
+.archive-wrap-first {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
 .post {
     @include column(9);
     max-width: 420px;
@@ -1203,7 +1220,3 @@ small {
 }
 
 }
-
-
-
-
