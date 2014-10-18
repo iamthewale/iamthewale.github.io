@@ -665,7 +665,6 @@ header.site-header nav {
             display: block;
             float: none;
             font-size: $fs3;
-            margin-bottom: $lh*2;
             position: relative;
             
             h1 {
@@ -703,7 +702,7 @@ header.site-header nav {
     display: block;
     margin: 0 auto;
     float: none;
-    padding-top: 140px;
+    padding-top: 60px;
     
     // Post Listing
     .post-list {
@@ -1051,7 +1050,6 @@ footer {
     .archive-wrap-first {
         padding-right: 20px;
         padding-left: 20px;
-        padding-bottom: 20px;
     }
 
     footer {
@@ -1083,7 +1081,6 @@ footer {
     .archive-wrap-first {
         padding-right: 20px;
         padding-left: 20px;
-        padding-bottom: 20px;
     }
  
  /* All Posts */
@@ -1200,7 +1197,6 @@ footer {
 .archive-wrap-first {
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom: 20px;
 }
 
 .post {
