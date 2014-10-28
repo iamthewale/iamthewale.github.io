@@ -780,7 +780,7 @@ header.site-header nav {
             font-weight: bold;
             font-family: $sans;
             font-style: normal;
-            color: $grey-light;
+            color: $grey-medium;
             text-transform: uppercase;
             vertical-align: middle;
         }
@@ -966,7 +966,7 @@ footer {
             }
             span.date {
                 float: none;
-                color: transparentize($grey-light, .4);
+                color: transparentize($grey-medium, .4);
                 @include column(4,12);
                 position: relative;
                 font-size: $fs5;
