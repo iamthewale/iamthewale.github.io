@@ -10,7 +10,7 @@
                   <li>
                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                         <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
-                        <p class="">{% if post.description %}{{ post.description }}{% endif %}{{ post.content |  truncatewords: 55}}</p>
+                        <p class="">{% if post.description %}{{ post.description }}{% endif %}{{ post.content |  truncatewords: 50 }}</p>
                         <h4><a href="{{ site.url }}{{ post.url }}">Continue reading...</a></h4>
                     </div>
                  </li>
@@ -21,7 +21,7 @@
         <section class="article archive">
           <article class="archive-wrap">
               <ol class="post-list">
-                 <lh><h2><span class="bb">{{ page.title }}</span></h2></lh>
+                 <lh><h2><span class="bb">Previous Posts</span></h2></lh>
                   {% for post in site.posts offset: 1 %}
                   <li>
                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
