@@ -1,18 +1,18 @@
 title:            Under Construction
 tagline:          Ch-ch-ch-ch-changes!
-description:      
-canonical: 
+description:
+canonical:
 
 # Owner/author information
 owner:
   name:           Filip Witek
   avatar:         avatar.jpg
   # bio:            "Aesthete & Athlete"
-  email:          filip.witek93@gmail.com 
+  email:          filip.witek93@gmail.com
   twitter:        iamthewale
   github:         iamthewale
-  instagram:      
-  dribbble:       
+  instagram:
+  dribbble:
   disqus:         iamthewale
   location:       "London, UK"
   # Plug in your disqus shortname!
@@ -24,6 +24,8 @@ tools:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: Archive
+    url: /archive
   - title: About
     url: /about
 
