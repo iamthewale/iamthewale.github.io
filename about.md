@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-share
 permalink: /about/index.html
 title: About
 image:
